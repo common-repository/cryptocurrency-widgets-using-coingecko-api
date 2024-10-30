@@ -1,0 +1,91 @@
+﻿/*Custom Font Awesome*/
+@font-face {
+    font-family: 'ccwcaicons';
+    src: url('../font/ccwcaicons.eot?89136625');
+    src: url('../font/ccwcaicons.eot?89136625#iefix') format('embedded-opentype'),
+         url('../font/ccwcaicons.woff2?89136625') format('woff2'),
+         url('../font/ccwcaicons.woff?89136625') format('woff'),
+         url('../font/ccwcaicons.ttf?89136625') format('truetype'),
+         url('../font/ccwcaicons.svg?89136625#ccwcaicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'ccwcaicons';
+      src: url('../font/ccwcaicons.svg?89136625#ccwcaicons') format('svg');
+    }
+  }
+  */
+   
+   [class^="ccwca_icon-"]:before, [class*=" ccwca_icon-"]:before {
+    font-family: "ccwcaicons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+   
+  .ccwca_icon-up:before { content: '\21'; } /* '!' */
+  .ccwca_icon-down:before { content: '\22'; } /* '&quot;' */
+  .ccwca_icon-price-up:before { content: '\e800'; } /* '' */
+  .ccwca_icon-price-down:before { content: '\e801'; } /* '' */
+  .ccwca_icon-exchange:before { content: '\e802'; } /* '' */
+  .ccwca_icon-website:before { content: '\e803'; } /* '' */
+  .ccwca_icon-country:before { content: '\e804'; } /* '' */
+  .ccwca_icon-edit:before { content: '\e805'; } /* '' */
+  .ccwca_icon-setting:before { content: '\e806'; } /* '' */
+  .ccwca_icon-flight:before { content: '\e807'; } /* '' */
+  .ccwca_icon-top:before { content: '\e809'; } /* '' */
+  .ccwca_icon-gplus:before { content: '\f0d4'; } /* '' */
+  .ccwca_icon-money:before { content: '\f0d6'; } /* '' */
+  .ccwca_icon-chat:before { content: '\f0e6'; } /* '' */
+  .ccwca_icon-alexa:before { content: '\f135'; } /* '' */
+  .ccwca_icon-link:before { content: '\f14c'; } /* '' */
+  .ccwca_icon-euro:before { content: '\f153'; } /* '' */
+  .ccwca_icon-pound:before { content: '\f154'; } /* '' */
+  .ccwca_icon-dollar:before { content: '\f155'; } /* '' */
+  .ccwca_icon-rupee:before { content: '\f156'; } /* '' */
+  .ccwca_icon-bitcoin:before { content: '\f15a'; } /* '' */
+  .ccwca_icon-youtube:before { content: '\f166'; } /* '' */
+  .ccwca_icon-coins:before { content: '\f192'; } /* '' */
+  .ccwca_icon-volume:before { content: '\f200'; } /* '' */
+  .ccwca_icon-chart:before { content: '\f201'; } /* '' */
+  .ccwca_icon-buy-coin:before { content: '\f217'; } /* '' */
+  .ccwca_icon-sell-coin:before { content: '\f218'; } /* '' */
+  .ccwca_icon-telegram:before { content: '\f2c6'; } /* '' */
+  .ccwca_icon-github:before { content: '\f300'; } /* '' */
+  .ccwca_icon-twitter:before { content: '\f304'; } /* '' */
+  .ccwca_icon-facebook:before { content: '\f308'; } /* '' */
+  .ccwca_icon-linkedin:before { content: '\f30c'; } /* '' */
+/*Custom Font Awesome*/
